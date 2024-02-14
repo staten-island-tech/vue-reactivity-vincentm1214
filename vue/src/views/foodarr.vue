@@ -8,7 +8,7 @@
 
 <script setup>
 import 
- const destinations=[
+ const food=[
  {
           name: "starbux",
           secret:false,
