@@ -1,5 +1,5 @@
 import './asset/main.css'
-import {food} from 'view'
+import {food} from 'foodarr'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
