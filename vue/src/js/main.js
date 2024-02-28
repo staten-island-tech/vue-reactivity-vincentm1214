@@ -1,7 +1,7 @@
-// import './asset/main.css'
-import {food} from 'FoodArr.vue'
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import './assets/main.css'
+import { food } from './views/DestCard';
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
 
 // import App from './App.vue'
 
