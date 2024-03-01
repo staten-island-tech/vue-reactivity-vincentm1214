@@ -1,5 +1,4 @@
-/* color palette from <https://github.com/vuejs/theme> */
-/* :root {
+:root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
@@ -83,74 +82,11 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
-
-/* :root {
-  --xaxa:#83C9F4;
-  --noob:#E3E7AF;
-  --top:#222A68;
-  --mid:#D95D39;
-  --hehe:#97A2FF;
-  --moyai:#F3C677;
-  --yar:#7FBEAB;
-      --primary:var(--hehe);
-    --secondary:var(--yar);
-    --h1:7.594rem;
-    --h2:5.063rem;
-    --h3:3.375rem;
-    --h4:2.25rem;
-    --h5:1.5rem;
-    } */
-     body,
-    html,
-    * {
-       padding: 0;
-       margin: 0;
-       box-sizing: border-box;
-    }
-  
-body{
-  background-color:pink;
 }
-    .container {
-       display: flex;
-       align-items: center;
-       text-align: center;
-       flex-wrap: wrap;
-       justify-content: space-around;
-    }
-  
-     .laquestion {
-       font-size: 1rem;
-       background-color: var(--noob);
-       padding: 2%;
-       margin: 2rem 2rem;
-       width: 450px;
-       height: 700px;
-    }
- 
-    h3{
-     border-radius: 5px;
-     margin-top: 2rem;
-    }
-  
-    h1{
-     font-size: 3rem;
-     text-align: center;
-     color: var(--xaxa);
-    }
-    
-    .image{
-      height: 400px;
-      width:400px;
-    }
-
-    .stat{
-      color:var(--hehe)
-    }
 
 
-/* @import './base.css';
+
+@import './base.css';
 
 #app {
   max-width: 1280px;
@@ -183,5 +119,4 @@ a,
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
-/* } */ 
+  }}

@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import food from './components/FoodArr.vue'
+import food from './views/FoodArr.vue'
 </script>
 
 <template>

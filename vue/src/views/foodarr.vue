@@ -1,8 +1,8 @@
 <template>
   <div>
-    <DestCard v-for="destination in destinations" 
-    :="destination.name" 
-    :Destination="destination"/>
+    <DestCard v-for="food in food" 
+    :="food.name" 
+    :Food="food"/>
   </div>
 </template>
 
