@@ -1,13 +1,14 @@
 import './assets/main.css'
- import { food } from './views/DestCard';
-import { createApp } from 'vue';
-import { createPinia } from 'pinia';
 
- import App from './App.vue'
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
 
-const app = createApp(app)
+import App from './App.vue'
+import router from './router'
+
+const app = createApp(App)
 
 app.use(createPinia())
+app.use(router)
 
 app.mount('#app')
-console.log(food)
