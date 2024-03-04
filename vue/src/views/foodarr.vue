@@ -1,8 +1,10 @@
 <template>
   <div>
-    <DestCard v-for="food in food" 
-    :="food.name" 
-    :Food="food"/>
+    <DestCard 
+      v-for="food in foods" 
+    : key ="food.name" 
+    : Food="food"
+      />
   </div>
 </template>
 
