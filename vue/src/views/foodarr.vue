@@ -1,4 +1,5 @@
 <template>
+      <h1>Hi Welcome to McDonalds How May I Not Help You</h1>
   <div>
     <DestCard 
       v-for="food in foods" 
