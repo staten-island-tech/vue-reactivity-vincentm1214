@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="foodcard">
       <h1>{{ food.name }}</h1>
       <img :src="food.img" alt="" />
       <h2>{{ clicked }}</h2>
